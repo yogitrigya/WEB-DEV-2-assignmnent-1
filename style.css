@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.eventForm {
+    background-color: white;
+    padding: 15px;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+
+.form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+.form input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.events {
+    background-color: white;
+    padding: 15px;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+.events button {
+    padding: 6px 10px;
+    margin-right: 5px;
+}
+
+.card{
+    background-color: antiquewhite;
+    width: 150px;
+    position: relative
+
+}
+
+.dlt{
+    position: absolute;
+    top: 5px;
+    right:5px;
+    background-color: red;
+    color: white;
+    width:15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;     /* allows cards to move to next row */
+    gap: 15px;           /* space between cards */
+}
